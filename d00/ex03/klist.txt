@@ -1,0 +1,5 @@
+Credentials cache: API:38413
+        Principal: alatif@42.US.ORG
+
+  Issued                Expires               Principal
+Oct 22 16:26:10 2018  Oct 23 02:26:10 2018  krbtgt/42.US.ORG@42.US.ORG

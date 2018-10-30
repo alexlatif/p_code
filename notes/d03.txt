@@ -1,0 +1,119 @@
+
+High memory - is stack, run functions or whatever architecture
+
+Low memory - heap, allocate memory
+
+Pointer contains memory address
+
+
+DEREFERENCING
+
+Int a;
+Int *ptr - declare pointer to an int, *ptr is the variable that ptr must be pointer to an int
+
+a = 3;
+Ptr = &a; -> this stores the address of a to that pointer
+
+Print address of ptr -> returns the a address
+ *ptr -> prints value the address has
+
+If we change a | *ptr -> *ptr | a  value will change too
+
+& - give me the address of
+* - give me whatever address
+
+Used for arrays, strings and function params
+
+
+**ptr - pointer to pointer, address to a pointer to an int
+
+Ptr2 = &ptr 
+
+
+
+ARITHMATIC 
+
+a=
+b=
+ptr=b
+
+B after a on stack but the b address comes first
+
+get the address of (ptr and + 1) compiler knows to move up 1 integer (add 4 bits auto) so finds a address
+
+get the value of *(ptr and + 1) finds a value 
+
+Recompile doesn't give exact address back
+
+
+
+
+ARRAYS
+Int	tab[10] -> memory slot that allocated 10 elements
+
+Tab is a form of pointer pointing to an array of integers
+
+tab[0] == *(tab + 0) -> get me the value of the address of tabs 0 int
+
+
+
+Int 	*tabs[2] -> array of pointers to int
+
+If you allocate an array to a pointer you can access the array [n] from that pointer
+
+
+tabptr[1][3] == *(*(tabptr + 1) + 3)
+
+
+
+a pointer points the value of the address at a to an int
+
+
+'' - char value in ascii
+
+
+
+CHARSTRING
+
+" " charstring is a series of bits that ends in \0
+
+ptr can only store one address as first char 
+
+charstring address is a reference to first address in string
+
+ptr[0] - value at address
+
+char w[] = "toto";  -> allocating 5 el to array
+
+char w = "toto"; -> cannot do w[0] = 'p', cant change string
+
+
+
+fn(&a) -> pass in address of a
+
+fn(int *a) -> param is now pointer
+*a = 42 -> changes a in other function
+
+
+
+PURPOSE OF POINTERS
+
+move around arr / charstring
+pass var address and modify
+
+
+
+void *ptr -> pointer to nothing / pointer to everything, useful without knowing type
+-> just for transporting addresses
+
+
+char *str = "toto" -> puts auto into array
+
+
+
+
+
+
+
+
+

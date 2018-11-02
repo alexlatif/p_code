@@ -1,0 +1,97 @@
+
+
+cpp main.c -> pre processing
+
+#include files.h --> header files
+
+#define preprocessing
+
+
+protect files.h
+#ifdef/ifndef MACRO -> if var has been defined/not - dont display/display inbeteen
+#define MACRO
+#include file.h -> prevents multiple inclusions
+#enfif
+
+script that does macros automatically in vi
+
+macros work globally
+
+
+typdef int name; -> not preprocessor
+
+- subject to the scope
+
+- change the variable type
+
+
+-define
+struct	s_point
+{
+	int a;
+	int y;
+}
+
+
+-initialize
+struct s_point a;
+struct s_point b;
+
+a.x
+b = a -> copy
+
+usually use pointers to structures
+
+
+-use typedef to save lines
+typedef struct	s_point
+{
+	int a;
+	int y;
+}	t_point;
+
+
+t_point a;
+t_point *ptr;
+
+a.x = 10;
+ptr = &a;
+(*ptr).x = 10;
+
+ptr->x                            USE ARROW NOTATION A LOT
+- can replace the asterisk .
+- dereferencing pointer
+
+
+
+enum e_list
+{
+	val1 = 1;
+	val2 = 2;
+	val3 = 3;
+}
+
+enum e_list a;
+
+a = val1;
+
+increase variable by one
+
+
+return (a) - in main
+
+./a.out
+echo $? -> last executable return value
+
+
+padding made in struct as it finds addresses in multiples of 4
+
+union allows access to memory area in many different ways
+
+https://stackoverflow.com/questions/252780/why-should-we-typedef-a-struct-so-often-in-c
+
+
+
+
+
+

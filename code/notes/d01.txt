@@ -1,0 +1,81 @@
+
+echo "hello"
+
+cat -e - see non write lines to see insructions
+
+more/less file - search and browse file
+
+Head/tail [-n x] file - first/last file
+
+Grep [-v not] "key word" file
+
+Echo "hello" > output.txt - stout put goes to text
+
+Echo "hello" >> output.txt - new line
+
+| head -n 1 - first line
+
+Cat file | sort - alpha Lexico character
+
+Cat file | sort | cut -d , -f 1 | cat -e
+
+cut -d , -f 1-3
+
+cut -d , -f 1,3
+
+Cat file | sort | cut -d , -f 1 | sed "s/Thomas/Thomas"
+
+sed "s/Thomas/Thomas" - substitute
+
+Tr "a" "b"
+
+Wc file - lines words characters
+
+Cat file | grep Thomas | wc -l - count lines of Thomas
+
+Ifconfig - network info
+
+Bc - calculator 
+
+Echo "1+2" | bc
+
+Find . - current
+
+Find /usr -name "ls*"
+
+Env - config shell scripts
+
+Path - binary files
+
+Export LINE=3 -> echo $LINE
+
+Cat file | rev - reverse stdinput to out
+
+Cat error file 2>&1 | rev - take the stderror redirect it to stdoutput and reverse
+
+Cat error file 2 > output - redirect error
+
+Cat file file file file error file > /dev/null -> display only error messages
+
+
+
+
+find . -name ".DS_Store" -depth -exec rm {} \;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

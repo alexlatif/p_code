@@ -1,0 +1,61 @@
+
+
+
+recompile chunks of code that fit - linkage
+
+gcc main.o ft.o ft1.o output_name
+
+
+dynamic memory allocation
+
+char	*str
+
+while 
+	str[i] = '0' + (i % 10)
+
+
+#include <stdlib.h>
+(char*)malloc(sizeof(*str) * (LEN + 1)) -> account for '\0'
+
+malloc returns void* -> address with no type.
+so we have to cast it to -> give type (char*)
+casting mainly for c++
+
+
+dynamically allocate memory
+
+./a.out & -> runs in background to see memory usage
+
+top allows you to see cpu
+
+free(str) -> free up memory
+
+use malloc for things we cannot allocate memory to - strings, arrays or linked lists
+
+but then free it up after you have used it
+
+
+
+
+
+we dont need to initialize variable as long as we allocate memory
+
+
+while (i < argc)
+	lcl_strcat(str, argv[i++]);
+
+-> means use this current i and then increment
+
+
+https://stackoverflow.com/questions/5935933/dynamically-create-an-array-of-strings-with-malloc
+
+
+
+
+
+
+
+
+
+
+

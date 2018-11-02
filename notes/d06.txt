@@ -1,0 +1,58 @@
+
+
+gcc -c function.c -> function.o
+
+
+can use to compile
+
+gcc main.o function.o fucntion1.o
+
+
+
+to create static libraries 
+
+ar rc libstr.a functions.o functions.o
+
+
+use library 
+
+gcc main.c -L. -lstr
+
+-L. - lib in current dir
+-lstr - look for lib with nam str
+
+to create function library that we have made
+
+
+ranlib -> takes lib as param and create index - optimizes compilation time
+
+use
+
+ranlib libstr.a
+
+
+
+Args
+
+int main(int argc, char **argv)
+
+**arv - string array
+
+- first element is binary name
+
+- argc tells how many arguments we have
+
+test args thoroughly and test everything you do
+
+
+
+
+bubble sort is slow => O(n^2)
+
+
+
+
+
+
+
+

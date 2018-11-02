@@ -1,0 +1,41 @@
+
+
+
+Day 00
+
+ls -la
+
+Man cmd - desc
+
+Rm -rf - removes everything in current dir
+
+Touch, cat
+
+Cp - copy
+.. - home directory
+
+Cp source destination
+
+Chmod ygr file - permissions
+7 - rwx
+6 - rw
+4 - r
+
+Emacs - like vim
+Ctrl s Ctrl x to save
+Ctrl z quit - fg - go back to left
+
+Ctrl e or a - beginning or end of line
+
+Ctrl s and type file to find
+
+
+
+Klist > klist.txt - output result of command in text file
+
+
+
+dn: uid=alatif,ou=october,ou=2018,ou=people,dc=42,dc=us,dc=org
+changetype: modify
+add: mobile
+mobile: +447770301301

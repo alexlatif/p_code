@@ -39,12 +39,8 @@ if ((str[i] >= 'a') && (str[i] <= 'z'))
 
 -> diff is 32 but neater to just compare chars
 
-overlap, overwritting string char
 
--unsigned goes to the max number
 
-strl cat returns str + min(size, leng(dest))
 
-continue; -> next while loop iteration
 
 

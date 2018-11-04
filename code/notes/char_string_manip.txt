@@ -1,3 +1,0 @@
-
-
-char strcpy(char *dst, char *src)
